@@ -1,0 +1,30 @@
+{
+  "name": "Bexflox",
+  "description": "Simple playground for learning flexbox layouts",
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "dependencies": {
+    "@ctm/inlinestyles": "^0.0.2",
+    "abstract-state-router": "^6.1.0",
+    "hash-brown-router": "^3.4.0",
+    "sausage-router": "^1.1.2",
+    "svelte-extras": "^2.0.2",
+    "svelte-state-renderer": "^2.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.1",
+    "style-loader": "^0.21.0",
+    "svelte": "^2.9.8",
+    "svelte-loader": "^2.10.0",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
